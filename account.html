@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Account — ANTIPODE</title>
+<meta name="description" content="Track your ANTIPODE orders, manage saved Australian delivery addresses and set your size preferences.">
+<meta name="theme-color" content="#0E2430">
+<link rel="icon" href="favicon.ico" sizes="32x32">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/css/fonts.css">
+<link rel="stylesheet" href="assets/css/tokens.css">
+<link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<div class="announce">
+  <div class="wrap">
+    <span>Free standard delivery Australia-wide over <b>A$150</b></span>
+    <span class="dot" aria-hidden="true">·</span>
+    <span>All prices <b>AUD</b>, GST included</span>
+    <span class="dot" aria-hidden="true">·</span>
+    <span>30-day returns</span>
+  </div>
+</div>
+
+<header class="header">
+  <div class="wrap header-bar">
+    <button type="button" class="iconbtn burger" data-open-nav aria-label="Open menu" aria-controls="nav-sheet">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+
+    <a class="brandmark" href="index.html">ANTIPODE</a>
+
+    <nav class="nav" data-nav aria-label="Primary">
+      <div class="nav-item" data-mega="women">
+        <a class="nav-link" href="shop.html?gender=women">Women
+          <svg class="nav-caret" viewBox="0 0 12 8" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><path d="m1 1.5 5 5 5-5"/></svg>
+        </a>
+      </div>
+      <div class="nav-item" data-mega="men">
+        <a class="nav-link" href="shop.html?gender=men">Men
+          <svg class="nav-caret" viewBox="0 0 12 8" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><path d="m1 1.5 5 5 5-5"/></svg>
+        </a>
+      </div>
+      <div class="nav-item"><a class="nav-link" href="shop.html">Everything</a></div>
+      <div class="nav-item"><a class="nav-link" href="shop.html?sale=1">Sale</a></div>
+      <div class="nav-item"><a class="nav-link" href="journal.html">Journal</a></div>
+      <div class="nav-item"><a class="nav-link" href="about.html">About</a></div>
+    </nav>
+
+    <div class="header-actions">
+      <form class="searchwrap" data-search role="search" action="shop.html" method="get">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <label class="sr-only" for="q-head">Search products</label>
+        <input id="q-head" name="q" type="search" placeholder="Search products" autocomplete="off">
+        <div class="suggest" role="listbox" aria-label="Search suggestions"></div>
+      </form>
+
+      <a class="iconbtn" href="wishlist.html" aria-label="Wishlist">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" aria-hidden="true"><path d="M12 20s-7.5-4.7-7.5-9.4A4.1 4.1 0 0 1 12 8a4.1 4.1 0 0 1 7.5 2.6C19.5 15.3 12 20 12 20Z"/></svg>
+        <span class="count" data-wish-count hidden>0</span>
+      </a>
+
+      <a class="iconbtn" href="account.html" aria-label="Account">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="8" r="3.6"/><path d="M4.8 20a7.2 7.2 0 0 1 14.4 0"/></svg>
+      </a>
+
+      <button type="button" class="iconbtn" data-open-bag data-bag-label aria-label="Bag, empty" aria-haspopup="dialog">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16l-1.2 13H5.2z"/><path d="M8.5 10V6.5a3.5 3.5 0 0 1 7 0V10"/></svg>
+        <span class="count" data-bag-count hidden>0</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main" class="wrap">
+  <nav class="crumbs" aria-label="Breadcrumb">
+    <a href="index.html">Home</a><span class="sep" aria-hidden="true">/</span>
+    <span aria-current="page">Account</span>
+  </nav>
+
+  <h1 class="mt-4">Account</h1>
+  <p class="editorial mt-3" style="font-size:1.125rem;color:var(--ink-2)">
+    Everything here is stored in this browser only. No account, no password, nothing sent anywhere.
+  </p>
+
+  <div class="tabs mt-6" role="tablist" aria-label="Account sections">
+    <button class="tab" role="tab" id="tab-orders" aria-controls="panel-orders" aria-selected="true">Orders</button>
+    <button class="tab" role="tab" id="tab-addresses" aria-controls="panel-addresses" aria-selected="false" tabindex="-1">Addresses</button>
+    <button class="tab" role="tab" id="tab-prefs" aria-controls="panel-prefs" aria-selected="false" tabindex="-1">Preferences</button>
+  </div>
+
+  <section id="panel-orders" role="tabpanel" aria-labelledby="tab-orders" class="mt-6" data-panel>
+    <div data-orders></div>
+  </section>
+
+  <section id="panel-addresses" role="tabpanel" aria-labelledby="tab-addresses" class="mt-6" data-panel hidden>
+    <div data-addresses></div>
+
+    <form class="addr-form mt-6" data-addr-form>
+      <h2>Add an address</h2>
+      <div class="row2 mt-4">
+        <div class="field">
+          <label for="a-name">Full name</label>
+          <input id="a-name" name="name" type="text" autocomplete="name" required aria-describedby="a-name-err">
+          <p class="err" id="a-name-err">Enter a name.</p>
+        </div>
+        <div class="field">
+          <label for="a-label">Label</label>
+          <input id="a-label" name="label" type="text" placeholder="Home, work, mum's">
+          <p class="hint">Optional.</p>
+        </div>
+      </div>
+      <div class="field mt-4">
+        <label for="a-street">Street address</label>
+        <input id="a-street" name="street" type="text" autocomplete="address-line1" required aria-describedby="a-street-err">
+        <p class="err" id="a-street-err">Enter a street address.</p>
+      </div>
+      <div class="row3 mt-4">
+        <div class="field">
+          <label for="a-suburb">Suburb</label>
+          <input id="a-suburb" name="suburb" type="text" autocomplete="address-level2" required aria-describedby="a-suburb-err">
+          <p class="err" id="a-suburb-err">Enter a suburb.</p>
+        </div>
+        <div class="field">
+          <label for="a-state">State</label>
+          <select id="a-state" name="state" required aria-describedby="a-state-err">
+            <option value="">Select</option>
+            <option>ACT</option><option>NSW</option><option>NT</option><option>QLD</option>
+            <option>SA</option><option>TAS</option><option>VIC</option><option>WA</option>
+          </select>
+          <p class="err" id="a-state-err">Select a state.</p>
+        </div>
+        <div class="field">
+          <label for="a-postcode">Postcode</label>
+          <input id="a-postcode" name="postcode" type="text" inputmode="numeric" maxlength="4" required aria-describedby="a-postcode-err">
+          <p class="err" id="a-postcode-err">Enter a valid four-digit postcode.</p>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary mt-5">Save address</button>
+    </form>
+  </section>
+
+  <section id="panel-prefs" role="tabpanel" aria-labelledby="tab-prefs" class="mt-6" data-panel hidden>
+    <form data-prefs class="prefs">
+      <h2>Sizes you usually take</h2>
+      <p class="small muted mt-2" style="max-width:52ch">
+        Saved here so product pages can point out when your size is low or sold out. Australian sizing throughout.
+      </p>
+
+      <div class="row3 mt-5">
+        <div class="field">
+          <label for="p-cloth">Clothing</label>
+          <select id="p-cloth" name="clothing"></select>
+        </div>
+        <div class="field">
+          <label for="p-shoe">Shoes</label>
+          <select id="p-shoe" name="shoe"></select>
+        </div>
+        <div class="field">
+          <label for="p-dept">Usually shops</label>
+          <select id="p-dept" name="dept">
+            <option value="">No preference</option>
+            <option value="women">Womenswear</option>
+            <option value="men">Menswear</option>
+          </select>
+        </div>
+      </div>
+
+      <h2 class="mt-7">Contact</h2>
+      <label class="check mt-3">
+        <input type="checkbox" name="marketing">
+        <span>Email me season notes and early access to markdowns</span>
+      </label>
+      <label class="check">
+        <input type="checkbox" name="sms">
+        <span>Text me delivery updates</span>
+      </label>
+
+      <button type="submit" class="btn btn-primary mt-5">Save preferences</button>
+      <p class="micro meta mt-3" data-prefs-msg role="status" aria-live="polite"></p>
+    </form>
+
+    <div class="danger mt-8">
+      <h2>Stored data</h2>
+      <p class="small muted mt-2" style="max-width:52ch">
+        Your bag, wishlist, orders, addresses and preferences live in this browser's local storage.
+        Clearing them cannot be undone.
+      </p>
+      <button type="button" class="btn btn-secondary mt-4" data-wipe>Clear everything stored on this device</button>
+    </div>
+  </section>
+</main>
+
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <p class="brandmark" style="color:var(--on-dark);display:inline-block">ANTIPODE</p>
+        <p class="small mt-3" style="color:var(--on-dark-2);max-width:38ch">
+          A multi-brand store on the far side of the world. Womenswear and menswear,
+          bought in Sydney, shipped everywhere in Australia.
+        </p>
+        <form class="newsletter" data-newsletter>
+          <label class="sr-only" for="nl">Email address</label>
+          <input id="nl" name="email" type="email" placeholder="Email address" autocomplete="email" required>
+          <button class="btn btn-primary" type="submit">Join</button>
+        </form>
+        <p class="micro mt-2" style="color:var(--on-dark-2)">Season notes and first access to markdowns. Unsubscribe any time.</p>
+      </div>
+
+      <nav aria-labelledby="f-shop">
+        <h2 id="f-shop">Shop</h2>
+        <a href="shop.html?gender=women">Womenswear</a>
+        <a href="shop.html?gender=men">Menswear</a>
+        <a href="shop.html?sort=newest">New in</a>
+        <a href="shop.html?sale=1">Sale</a>
+        <a href="shop.html?category=watches">Watches</a>
+      </nav>
+
+      <nav aria-labelledby="f-help">
+        <h2 id="f-help">Help</h2>
+        <a href="account.html#orders">Track an order</a>
+        <a href="about.html#delivery">Delivery</a>
+        <a href="about.html#returns">Returns &amp; refunds</a>
+        <a href="about.html#sizing">Size guide</a>
+        <a href="about.html#contact">Contact</a>
+      </nav>
+
+      <nav aria-labelledby="f-about">
+        <h2 id="f-about">Company</h2>
+        <a href="about.html">Our story</a>
+        <a href="journal.html">Journal</a>
+        <a href="about.html#responsibility">Responsibility</a>
+        <a href="about.html#privacy">Privacy</a>
+        <a href="about.html#terms">Terms of sale</a>
+      </nav>
+    </div>
+
+    <div class="footer-bottom">
+      <p>
+        © 2026 Antipode Retail Pty Ltd · ABN 41 824 753 556 · Level 3, 118 Kippax Street, Surry Hills NSW 2010.
+        All prices in Australian dollars and include GST. Our goods come with guarantees that cannot be
+        excluded under the Australian Consumer Law.
+      </p>
+      <p class="nowrap">Made in Australia</p>
+    </div>
+  </div>
+</footer>
+
+<!-- ===================================================================
+     Mobile navigation sheet
+     =================================================================== -->
+<dialog class="sheet" id="nav-sheet" aria-label="Menu">
+  <div class="sheet-head">
+    <span class="brandmark">ANTIPODE</span>
+    <button type="button" class="iconbtn" data-close-nav aria-label="Close menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg>
+    </button>
+  </div>
+  <div class="sheet-body">
+    <form class="searchwrap" data-search role="search" action="shop.html" method="get" style="display:block;width:100%;margin-bottom:var(--s-6)">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <label class="sr-only" for="q-sheet">Search products</label>
+      <input id="q-sheet" name="q" type="search" placeholder="Search products" autocomplete="off">
+      <div class="suggest" role="listbox" aria-label="Search suggestions"></div>
+    </form>
+
+    <div class="sheet-group">
+      <h2>Women</h2>
+      <div data-sheet-cats="women"></div>
+    </div>
+    <div class="sheet-group">
+      <h2>Men</h2>
+      <div data-sheet-cats="men"></div>
+    </div>
+    <div class="sheet-group">
+      <h2>More</h2>
+      <a href="shop.html">Everything</a>
+      <a href="shop.html?sale=1">Sale</a>
+      <a href="journal.html">Journal</a>
+      <a href="about.html">About</a>
+      <a href="wishlist.html">Wishlist</a>
+      <a href="account.html">Account &amp; orders</a>
+    </div>
+  </div>
+</dialog>
+
+<!-- ===================================================================
+     Bag drawer
+     =================================================================== -->
+<dialog class="drawer" id="bag-drawer" aria-label="Shopping bag">
+  <div class="drawer-head">
+    <div>
+      <h2 style="font-size:var(--t-h3)">Your bag</h2>
+      <p class="micro meta" data-drawer-count>0 items</p>
+    </div>
+    <button type="button" class="iconbtn" data-close-bag aria-label="Close bag">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg>
+    </button>
+  </div>
+  <div class="drawer-body"></div>
+  <div class="drawer-foot" hidden></div>
+</dialog>
+
+<script src="assets/js/catalog.js"></script>
+
+<script src="assets/js/catalog.js"></script>
+<script src="assets/js/store.js"></script>
+<script src="assets/js/shared.js"></script>
+<script src="assets/js/account.js"></script>
+</body>
+</html>

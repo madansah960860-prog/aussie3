@@ -1,0 +1,746 @@
+[
+  {
+    "url": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_t.png",
+    "file": "fs1-1.png"
+  },
+  {
+    "url": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_t.png",
+    "file": "fs2-1.png"
+  },
+  {
+    "url": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_t.png",
+    "file": "fs3-1.png"
+  },
+  {
+    "url": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_t.png",
+    "file": "fs4-1.png"
+  },
+  {
+    "url": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_t.png",
+    "file": "fs5-1.png"
+  },
+  {
+    "url": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_t.png",
+    "file": "fs6-1.png"
+  },
+  {
+    "url": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_t.png",
+    "file": "fs7-1.png"
+  },
+  {
+    "url": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_t.png",
+    "file": "fs8-1.png"
+  },
+  {
+    "url": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_t.png",
+    "file": "fs15-1.png"
+  },
+  {
+    "url": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_t.png",
+    "file": "fs16-1.png"
+  },
+  {
+    "url": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2t.png",
+    "file": "fs17-1.png"
+  },
+  {
+    "url": "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_t.png",
+    "file": "fs18-1.png"
+  },
+  {
+    "url": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_t.png",
+    "file": "fs19-1.png"
+  },
+  {
+    "url": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_t.png",
+    "file": "fs20-1.png"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-shirts/blue-&-black-check-shirt/1.webp",
+    "file": "dj83-1.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-shirts/blue-&-black-check-shirt/2.webp",
+    "file": "dj83-2.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-shirts/blue-&-black-check-shirt/3.webp",
+    "file": "dj83-3.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-shirts/blue-&-black-check-shirt/4.webp",
+    "file": "dj83-4.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-shirts/gigabyte-aorus-men-tshirt/1.webp",
+    "file": "dj84-1.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-shirts/gigabyte-aorus-men-tshirt/2.webp",
+    "file": "dj84-2.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-shirts/gigabyte-aorus-men-tshirt/3.webp",
+    "file": "dj84-3.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-shirts/gigabyte-aorus-men-tshirt/4.webp",
+    "file": "dj84-4.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-shirts/man-plaid-shirt/1.webp",
+    "file": "dj85-1.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-shirts/man-plaid-shirt/2.webp",
+    "file": "dj85-2.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-shirts/man-plaid-shirt/3.webp",
+    "file": "dj85-3.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-shirts/man-plaid-shirt/4.webp",
+    "file": "dj85-4.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-shirts/man-short-sleeve-shirt/1.webp",
+    "file": "dj86-1.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-shirts/man-short-sleeve-shirt/2.webp",
+    "file": "dj86-2.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-shirts/man-short-sleeve-shirt/3.webp",
+    "file": "dj86-3.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-shirts/man-short-sleeve-shirt/4.webp",
+    "file": "dj86-4.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-shirts/men-check-shirt/1.webp",
+    "file": "dj87-1.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-shirts/men-check-shirt/2.webp",
+    "file": "dj87-2.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-shirts/men-check-shirt/3.webp",
+    "file": "dj87-3.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-shirts/men-check-shirt/4.webp",
+    "file": "dj87-4.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-shoes/nike-air-jordan-1-red-and-black/1.webp",
+    "file": "dj88-1.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-shoes/nike-air-jordan-1-red-and-black/2.webp",
+    "file": "dj88-2.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-shoes/nike-air-jordan-1-red-and-black/3.webp",
+    "file": "dj88-3.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-shoes/nike-air-jordan-1-red-and-black/4.webp",
+    "file": "dj88-4.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-shoes/nike-baseball-cleats/1.webp",
+    "file": "dj89-1.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-shoes/nike-baseball-cleats/2.webp",
+    "file": "dj89-2.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-shoes/nike-baseball-cleats/3.webp",
+    "file": "dj89-3.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-shoes/nike-baseball-cleats/4.webp",
+    "file": "dj89-4.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-shoes/puma-future-rider-trainers/1.webp",
+    "file": "dj90-1.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-shoes/puma-future-rider-trainers/2.webp",
+    "file": "dj90-2.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-shoes/puma-future-rider-trainers/3.webp",
+    "file": "dj90-3.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-shoes/puma-future-rider-trainers/4.webp",
+    "file": "dj90-4.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-shoes/sports-sneakers-off-white-&-red/1.webp",
+    "file": "dj91-1.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-shoes/sports-sneakers-off-white-&-red/2.webp",
+    "file": "dj91-2.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-shoes/sports-sneakers-off-white-&-red/3.webp",
+    "file": "dj91-3.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-shoes/sports-sneakers-off-white-&-red/4.webp",
+    "file": "dj91-4.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-shoes/sports-sneakers-off-white-red/1.webp",
+    "file": "dj92-1.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-shoes/sports-sneakers-off-white-red/2.webp",
+    "file": "dj92-2.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-shoes/sports-sneakers-off-white-red/3.webp",
+    "file": "dj92-3.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-shoes/sports-sneakers-off-white-red/4.webp",
+    "file": "dj92-4.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-watches/brown-leather-belt-watch/1.webp",
+    "file": "dj93-1.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-watches/brown-leather-belt-watch/2.webp",
+    "file": "dj93-2.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-watches/brown-leather-belt-watch/3.webp",
+    "file": "dj93-3.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-watches/longines-master-collection/1.webp",
+    "file": "dj94-1.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-watches/longines-master-collection/2.webp",
+    "file": "dj94-2.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-watches/longines-master-collection/3.webp",
+    "file": "dj94-3.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-date-black-dial/1.webp",
+    "file": "dj95-1.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-date-black-dial/2.webp",
+    "file": "dj95-2.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-date-black-dial/3.webp",
+    "file": "dj95-3.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-moonphase/1.webp",
+    "file": "dj96-1.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-moonphase/2.webp",
+    "file": "dj96-2.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-moonphase/3.webp",
+    "file": "dj96-3.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-datejust/1.webp",
+    "file": "dj97-1.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-datejust/2.webp",
+    "file": "dj97-2.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-datejust/3.webp",
+    "file": "dj97-3.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-submariner-watch/1.webp",
+    "file": "dj98-1.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-submariner-watch/2.webp",
+    "file": "dj98-2.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-submariner-watch/3.webp",
+    "file": "dj98-3.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/sunglasses/black-sun-glasses/1.webp",
+    "file": "dj154-1.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/sunglasses/black-sun-glasses/2.webp",
+    "file": "dj154-2.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/sunglasses/black-sun-glasses/3.webp",
+    "file": "dj154-3.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/sunglasses/classic-sun-glasses/1.webp",
+    "file": "dj155-1.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/sunglasses/classic-sun-glasses/2.webp",
+    "file": "dj155-2.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/sunglasses/classic-sun-glasses/3.webp",
+    "file": "dj155-3.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/sunglasses/green-and-black-glasses/1.webp",
+    "file": "dj156-1.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/sunglasses/green-and-black-glasses/2.webp",
+    "file": "dj156-2.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/sunglasses/green-and-black-glasses/3.webp",
+    "file": "dj156-3.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/sunglasses/party-glasses/1.webp",
+    "file": "dj157-1.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/sunglasses/party-glasses/2.webp",
+    "file": "dj157-2.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/sunglasses/party-glasses/3.webp",
+    "file": "dj157-3.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/sunglasses/sunglasses/1.webp",
+    "file": "dj158-1.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/sunglasses/sunglasses/2.webp",
+    "file": "dj158-2.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/sunglasses/sunglasses/3.webp",
+    "file": "dj158-3.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/tops/blue-frock/1.webp",
+    "file": "dj162-1.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/tops/blue-frock/2.webp",
+    "file": "dj162-2.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/tops/blue-frock/3.webp",
+    "file": "dj162-3.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/tops/blue-frock/4.webp",
+    "file": "dj162-4.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/tops/girl-summer-dress/1.webp",
+    "file": "dj163-1.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/tops/girl-summer-dress/2.webp",
+    "file": "dj163-2.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/tops/girl-summer-dress/3.webp",
+    "file": "dj163-3.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/tops/girl-summer-dress/4.webp",
+    "file": "dj163-4.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/tops/gray-dress/1.webp",
+    "file": "dj164-1.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/tops/gray-dress/2.webp",
+    "file": "dj164-2.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/tops/gray-dress/3.webp",
+    "file": "dj164-3.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/tops/gray-dress/4.webp",
+    "file": "dj164-4.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/tops/short-frock/1.webp",
+    "file": "dj165-1.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/tops/short-frock/2.webp",
+    "file": "dj165-2.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/tops/short-frock/3.webp",
+    "file": "dj165-3.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/tops/short-frock/4.webp",
+    "file": "dj165-4.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/tops/tartan-dress/1.webp",
+    "file": "dj166-1.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/tops/tartan-dress/2.webp",
+    "file": "dj166-2.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/tops/tartan-dress/3.webp",
+    "file": "dj166-3.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/tops/tartan-dress/4.webp",
+    "file": "dj166-4.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-bags/blue-women's-handbag/1.webp",
+    "file": "dj172-1.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-bags/blue-women's-handbag/2.webp",
+    "file": "dj172-2.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-bags/blue-women's-handbag/3.webp",
+    "file": "dj172-3.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-bags/heshe-women's-leather-bag/1.webp",
+    "file": "dj173-1.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-bags/heshe-women's-leather-bag/2.webp",
+    "file": "dj173-2.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-bags/heshe-women's-leather-bag/3.webp",
+    "file": "dj173-3.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-bags/prada-women-bag/1.webp",
+    "file": "dj174-1.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-bags/prada-women-bag/2.webp",
+    "file": "dj174-2.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-bags/prada-women-bag/3.webp",
+    "file": "dj174-3.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-bags/white-faux-leather-backpack/1.webp",
+    "file": "dj175-1.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-bags/white-faux-leather-backpack/2.webp",
+    "file": "dj175-2.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-bags/white-faux-leather-backpack/3.webp",
+    "file": "dj175-3.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-bags/women-handbag-black/1.webp",
+    "file": "dj176-1.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-bags/women-handbag-black/2.webp",
+    "file": "dj176-2.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-bags/women-handbag-black/3.webp",
+    "file": "dj176-3.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-dresses/black-women's-gown/1.webp",
+    "file": "dj177-1.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-dresses/black-women's-gown/2.webp",
+    "file": "dj177-2.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-dresses/black-women's-gown/3.webp",
+    "file": "dj177-3.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-dresses/black-women's-gown/4.webp",
+    "file": "dj177-4.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-dresses/corset-leather-with-skirt/1.webp",
+    "file": "dj178-1.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-dresses/corset-leather-with-skirt/2.webp",
+    "file": "dj178-2.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-dresses/corset-leather-with-skirt/3.webp",
+    "file": "dj178-3.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-dresses/corset-leather-with-skirt/4.webp",
+    "file": "dj178-4.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-dresses/corset-with-black-skirt/1.webp",
+    "file": "dj179-1.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-dresses/corset-with-black-skirt/2.webp",
+    "file": "dj179-2.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-dresses/corset-with-black-skirt/3.webp",
+    "file": "dj179-3.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-dresses/corset-with-black-skirt/4.webp",
+    "file": "dj179-4.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-dresses/dress-pea/1.webp",
+    "file": "dj180-1.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-dresses/dress-pea/2.webp",
+    "file": "dj180-2.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-dresses/dress-pea/3.webp",
+    "file": "dj180-3.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-dresses/dress-pea/4.webp",
+    "file": "dj180-4.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-dresses/marni-red-&-black-suit/1.webp",
+    "file": "dj181-1.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-dresses/marni-red-&-black-suit/2.webp",
+    "file": "dj181-2.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-dresses/marni-red-&-black-suit/3.webp",
+    "file": "dj181-3.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-dresses/marni-red-&-black-suit/4.webp",
+    "file": "dj181-4.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-jewellery/green-crystal-earring/1.webp",
+    "file": "dj182-1.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-jewellery/green-crystal-earring/2.webp",
+    "file": "dj182-2.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-jewellery/green-crystal-earring/3.webp",
+    "file": "dj182-3.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-jewellery/green-oval-earring/1.webp",
+    "file": "dj183-1.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-jewellery/green-oval-earring/2.webp",
+    "file": "dj183-2.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-jewellery/green-oval-earring/3.webp",
+    "file": "dj183-3.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-jewellery/tropical-earring/1.webp",
+    "file": "dj184-1.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-jewellery/tropical-earring/2.webp",
+    "file": "dj184-2.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-jewellery/tropical-earring/3.webp",
+    "file": "dj184-3.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-shoes/black-&-brown-slipper/1.webp",
+    "file": "dj185-1.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-shoes/black-&-brown-slipper/2.webp",
+    "file": "dj185-2.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-shoes/black-&-brown-slipper/3.webp",
+    "file": "dj185-3.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-shoes/black-&-brown-slipper/4.webp",
+    "file": "dj185-4.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-shoes/calvin-klein-heel-shoes/1.webp",
+    "file": "dj186-1.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-shoes/calvin-klein-heel-shoes/2.webp",
+    "file": "dj186-2.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-shoes/calvin-klein-heel-shoes/3.webp",
+    "file": "dj186-3.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-shoes/calvin-klein-heel-shoes/4.webp",
+    "file": "dj186-4.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-shoes/golden-shoes-woman/1.webp",
+    "file": "dj187-1.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-shoes/golden-shoes-woman/2.webp",
+    "file": "dj187-2.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-shoes/golden-shoes-woman/3.webp",
+    "file": "dj187-3.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-shoes/golden-shoes-woman/4.webp",
+    "file": "dj187-4.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-shoes/pampi-shoes/1.webp",
+    "file": "dj188-1.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-shoes/pampi-shoes/2.webp",
+    "file": "dj188-2.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-shoes/pampi-shoes/3.webp",
+    "file": "dj188-3.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-shoes/pampi-shoes/4.webp",
+    "file": "dj188-4.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-shoes/red-shoes/1.webp",
+    "file": "dj189-1.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-shoes/red-shoes/2.webp",
+    "file": "dj189-2.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-shoes/red-shoes/3.webp",
+    "file": "dj189-3.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-shoes/red-shoes/4.webp",
+    "file": "dj189-4.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-watches/iwc-ingenieur-automatic-steel/1.webp",
+    "file": "dj190-1.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-watches/iwc-ingenieur-automatic-steel/2.webp",
+    "file": "dj190-2.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-watches/iwc-ingenieur-automatic-steel/3.webp",
+    "file": "dj190-3.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-watches/rolex-cellini-moonphase/1.webp",
+    "file": "dj191-1.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-watches/rolex-cellini-moonphase/2.webp",
+    "file": "dj191-2.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-watches/rolex-cellini-moonphase/3.webp",
+    "file": "dj191-3.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-watches/rolex-datejust-women/1.webp",
+    "file": "dj192-1.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-watches/rolex-datejust-women/2.webp",
+    "file": "dj192-2.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-watches/rolex-datejust-women/3.webp",
+    "file": "dj192-3.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-watches/watch-gold-for-women/1.webp",
+    "file": "dj193-1.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-watches/watch-gold-for-women/2.webp",
+    "file": "dj193-2.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-watches/watch-gold-for-women/3.webp",
+    "file": "dj193-3.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-watches/women's-wrist-watch/1.webp",
+    "file": "dj194-1.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-watches/women's-wrist-watch/2.webp",
+    "file": "dj194-2.webp"
+  },
+  {
+    "url": "https://cdn.dummyjson.com/product-images/womens-watches/women's-wrist-watch/3.webp",
+    "file": "dj194-3.webp"
+  }
+]
